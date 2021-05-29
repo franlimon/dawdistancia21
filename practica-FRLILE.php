@@ -4,11 +4,11 @@
 * Esta función devuelve un cadena concatenada a la cadena introducida por el usuario
 *
 * @author Francisco Limón León
-* @version 1.0
+* @version 1.1
 * @param string $param1 Introducimos cualquier cadena
 * @return string $param2 Devolveremos una cadena con un añadido
 */
-function concatenaAlgo($param1)
+function concatenaCosas($param1)
 {
  $param2 = "Se ha pasado por parámetro la cadena: ".($param1);
  return $param2;
@@ -33,7 +33,7 @@ function suma1($param1)
 /**
 * Aquí empezamos a invocar funciones
 */
-echo concatenaAlgo('Hoy es viernes');
+echo concatenaCosas('Hoy es viernes');
 echo '<br>';
 echo 'El entero siguiente al introducido por parámetro es: '.suma1(10);
 
